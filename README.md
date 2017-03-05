@@ -1,1 +1,3 @@
 # week5_extra_credit
+
+For this week I'm introducing the copy module, which can a great tool when working with mutable objects. copy.deepcopy makes a copy of the object, with its' own reference, instead of having 2 or more variables referring to the same object, thus, can create problems when making changes to the object. With my python code, it shows using the copy module, whenever I makes changes to var2, it does not affect var1. If without the copy module, var3 is directly affected and changed accordingly with var4. Within the copy module, you also have the copy.copy(), which does some what the same, with some differences. 
